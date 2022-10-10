@@ -7,6 +7,14 @@
     <title>Registration form</title>
 </head>
 <body>
+    <style>
+        .pincode{
+            text-security:disc;
+            -webkit-text-security:disc;
+            -moz-text-security:disc;
+        }
+    </style>
+    
    <table border="2%" bordercolor="red" bgcolor="yellow" align="center" width="100%">
            <tr>
                <td align="center">
@@ -101,8 +109,29 @@
                 </td>
             </td>
         </tr>
-        <tr><td> <input type="Submit" name="" id=""></td></tr>
-       
+        <tr>
+            <td>
+                <label for="Address">Address</label>
+                <td>
+                  <textarea name="my txt" id="Addresss" cols="15" rows="5"></textarea>
+                </td>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="Range">diploma or emcet percentage</label>
+                <td>
+                <input name="pincode" type="text" class="pincode" inputmode="numeric" maxlength="6">    
+                </td>
+            </td>
+        </tr>
+        <tr>
+            <td> 
+                <input type="Submit" name="" id="">
+            </td>
+        </tr>
+        
+
     </table>
         </font>     
    </form>
